@@ -3,13 +3,13 @@ import axios from 'axios';
 
 export const UpdateMovie = () => {
 
-    const [ movie, updateMovie ] = useState({
+    const [ movie, updateMovie ] = useState([{
         id: 0,
         title: '',
         director: '',
         metascore: 0,
         stars: []
-    });
+    }]);
 
     const handleChange = e => {
         updateMovie(...movie, {
