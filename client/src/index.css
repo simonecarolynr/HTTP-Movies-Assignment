@@ -104,3 +104,11 @@ body {
   color: red;
   text-align: center;
 }
+
+.updateForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+}
